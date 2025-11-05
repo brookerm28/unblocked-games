@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #ecf4fb; -webkit-text-stroke: #ecf4fb; background-color: #0c0e12}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #ecf4fb; -webkit-text-stroke: #ecf4fb; background-color: #0c0e12; min-height: 18.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!doctype html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="utf-8" /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;Unblocked Games Hub — Fixed&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>body { background: #0f1116; color: #e5e7eb; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>a { text-decoration: none; color: inherit; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>img { display: block; max-width: 100%; border-radius: 12px; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.container { max-width: 1200px; margin: 0 auto; padding: 20px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>header { text-align: center; margin-bottom: 40px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>header h1 { font-size: 2.5rem; color: #3b82f6; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-card { background: #1b1e25; padding: 15px; border-radius: 12px; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(59, 130, 246, 0.5); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-card img { margin-bottom: 10px; height: 120px; object-fit: cover; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-card h2 { font-size: 1.2rem; text-align: center; color: #e5e7eb; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-page { display: none; flex-direction: column; align-items: center; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-page.active { display: flex; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-iframe-wrap { width: 100%; max-width: 1200px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.game-page iframe { width: 100%; height: 80vh; border: none; border-radius: 12px; background: #000; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.controls { margin-top: 16px; display:flex; gap:12px; align-items:center; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.back-btn { background: #3b82f6; color: #fff; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; transition: background 0.2s; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.back-btn:hover { background: #2563eb; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.open-btn { background: #10b981; color: #fff; padding: 10px 14px; border-radius: 8px; border:none; cursor:pointer; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.note { margin-left: 8px; color: #9ca3af; font-size: .95rem; }</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;header&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Unblocked Games Hub&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="game-list" id="game-list"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="game-page" id="game-page"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="game-iframe-wrap" id="game-iframe-container"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="controls"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;button class="back-btn" id="back-btn"&gt;Back to Games&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;button class="open-btn" id="open-btn"&gt;Open in new tab&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="note" id="embed-note"&gt;If embedding is blocked, use "Open in new tab".&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const games = [</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>name: "Retro Bowl",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_url: "https://hfmanor.com/retro-bowl",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_image_icon: "https://hfmanor.com/image/retro-bowl",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>id: "retro-bowl"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>name: "Subway Surfers",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_url: "https://hfmanor.com/subway-surfers",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_image_icon: "https://hfmanor.com/image/subway-surfers",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>id: "subway-surfers"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>name: "Basketball Stars",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_url: "https://hfmanor.com/basketball-stars",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_image_icon: "https://hfmanor.com/image/basketball-stars",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>id: "basketball-stars"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>},</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>name: "Basket Random",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_url: "https://hfmanor.com/basket-random",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>game_image_icon: "https://hfmanor.com/image/basket-random",</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>id: "basket-random"</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>];</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const gameListEl = document.getElementById('game-list');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const gamePageEl = document.getElementById('game-page');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const iframeContainer = document.getElementById('game-iframe-container');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const backBtn = document.getElementById('back-btn');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const openBtn = document.getElementById('open-btn');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>let currentGame = null;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>// Populate</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>games.forEach(game =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>const card = document.createElement('div');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>card.className = 'game-card';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>card.innerHTML = `</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;img src="${game.game_image_icon}" alt="${game.name}" onerror="this.style.opacity=.5; this.nextElementSibling.style.opacity=.7;"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;h2&gt;${game.name}&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>`;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>card.addEventListener('click', () =&gt; showGame(game));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gameListEl.appendChild(card);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>function showGame(game) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>currentGame = game;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframeContainer.innerHTML = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// create iframe element safely instead of innerHTML</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>const iframe = document.createElement('iframe');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframe.src = game.game_url;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframe.setAttribute('allowfullscreen', '');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframe.title = game.name;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframeContainer.appendChild(iframe);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// UI</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gameListEl.style.display = 'none';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gamePageEl.classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>// set open button href behavior</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>openBtn.onclick = () =&gt; window.open(game.game_url, '_blank', 'noopener');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>backBtn.addEventListener('click', () =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gamePageEl.classList.remove('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>gameListEl.style.display = 'grid';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>iframeContainer.innerHTML = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>currentGame = null;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
